@@ -1,0 +1,141 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: sans-serif;
+}
+#header {
+  background: linear-gradient(rgba(0, 0, 0, 0.377), rgba(0, 0, 0, 0.247)),
+    url(../images/banner-1.jpg);
+  width: 100%;
+  overflow: hidden;
+  background-size: cover;
+}
+.header-margin-index {
+  padding: 13rem 5rem;
+}
+.header-margin {
+  padding: 13rem 5rem;
+}
+#header p {
+  color: rgb(175, 175, 175);
+}
+#header a {
+  text-decoration: none;
+}
+.f1 {
+  height: 250px;
+}
+#about-me {
+  background: #ffffff;
+}
+#about-icon {
+  width: 35px;
+  padding: 8px;
+  border-radius: 50px;
+  font-size: 25px;
+  height: 35px;
+  transition: all 0.5s ease;
+  background: #ffffff;
+  -webkit-border-radius: 50px;
+  -moz-border-radius: 50px;
+  -ms-border-radius: 50px;
+  -o-border-radius: 50px;
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -ms-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+}
+#about-icon:hover {
+  background: #dc3545;
+  color: #ffffff;
+}
+.about-header-margin {
+  padding: 8rem;
+}
+#fashion-photo {
+  transition: all 0.5s ease;
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -ms-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+}
+#fashion-photo:hover {
+  animation: fadeIn 3s;
+  -webkit-animation: fadeIn 1s;
+}
+
+@keyframes fadeIn {
+  from {
+    width: 100%;
+    height: 100%;
+  }
+  to {
+    width: 90%;
+    height: 95%;
+  }
+}
+
+@media (max-width: 700px) {
+}
+
+@media (max-width: 600px) {
+  #header .header-margin-index h2 {
+    font-size: 40px;
+    color: red;
+  }
+  #header .header-margin-index p {
+    font-size: 20px;
+  }
+}
+@media (max-width: 550px) {
+  #header .header-margin-index {
+    padding: 8rem;
+  }
+  #header .header-margin-index h2 {
+    font-size: 30px;
+  }
+  .about-header-margin h2 {
+    font-size: 35px;
+  }
+  #header .header-margin-index p {
+    font-size: 10px;
+  }
+  #header .header-margin-index p span {
+    display: none;
+  }
+  .about-header-margin p {
+    font-size: 10px;
+  }
+}
+@media (max-width: 450px) {
+  #header .header-margin-index h2 {
+    font-size: 20px;
+  }
+  .about-header-margin h2 {
+    font-size: 25px;
+  }
+  .team {
+    padding-top: 0px;
+  }
+  .team h4 {
+    font-size: 30px;
+  }
+  #contact-form {
+    margin: 1rem;
+  }
+  #contact-p {
+    margin: 0px;
+  }
+  .contact-p-p {
+    margin: 1rem;
+  }
+  .contact-address-margin {
+    margin: 0px;
+  }
+  .contact-address {
+    margin: 2rem;
+  }
+}
